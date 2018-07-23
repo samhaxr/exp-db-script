@@ -1,0 +1,4 @@
+rm /usr/bin/exploits > /dev/null 2>&1
+sleep 1
+cp exploits /usr/local/bin
+exit 1
